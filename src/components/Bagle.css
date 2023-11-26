@@ -1,0 +1,28 @@
+.bagel-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform-style: preserve-3d;
+  animation: spin 5s infinite linear;
+}
+
+.bagel {
+  width: 100px; /* Adjust the size of the bagel */
+  height: 25px; /* Adjust the thickness of the bagel */
+  background: #e07e47; /* Adjust the color of the bagel */
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes spin {
+  0% {
+      transform: translate(-50%, -50%) rotateY(0deg);
+  }
+  100% {
+      transform: translate(-50%, -50%) rotateY(360deg);
+  }
+}

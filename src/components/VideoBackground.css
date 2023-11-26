@@ -1,0 +1,14 @@
+.video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  width: auto;
+  height: auto;
+  z-index: 0;
+}
+
+.react-player {
+  width: 100% !important;
+  height: 100% !important;
+}
